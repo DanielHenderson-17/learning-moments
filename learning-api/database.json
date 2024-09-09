@@ -1,0 +1,130 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "cohort": "Cohort 1"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "cohort": "Cohort 2"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "cohort": "Cohort 3"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bob.brown@example.com",
+        "cohort": "Cohort 1"
+      },
+      {
+        "id": 5,
+        "name": "Charlie Green",
+        "email": "charlie.green@example.com",
+        "cohort": "Cohort 2"
+      }
+    ],
+    "posts": [
+      {
+        "id": 1,
+        "userId": 1,
+        "title": "Understanding Functions",
+        "body": "Today I learned about JavaScript functions...",
+        "date": "2024-09-09",
+        "topicId": 1
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "title": "Async Programming in JS",
+        "body": "Asynchronous programming in JavaScript is very powerful...",
+        "date": "2024-09-08",
+        "topicId": 2
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "title": "Introduction to React",
+        "body": "React makes building UI components so easy...",
+        "date": "2024-09-07",
+        "topicId": 3
+      },
+      {
+        "id": 4,
+        "userId": 4,
+        "title": "State Management with Redux",
+        "body": "Redux helps with complex state management in large applications...",
+        "date": "2024-09-06",
+        "topicId": 4
+      },
+      {
+        "id": 5,
+        "userId": 5,
+        "title": "Understanding Closures",
+        "body": "Closures are a fundamental concept in JavaScript...",
+        "date": "2024-09-05",
+        "topicId": 1
+      }
+    ],
+    "topics": [
+      {
+        "id": 1,
+        "name": "JavaScript"
+      },
+      {
+        "id": 2,
+        "name": "Asynchronous Programming"
+      },
+      {
+        "id": 3,
+        "name": "React"
+      },
+      {
+        "id": 4,
+        "name": "Redux"
+      },
+      {
+        "id": 5,
+        "name": "CSS Flexbox"
+      },
+      {
+        "id": 6,
+        "name": "Git and GitHub"
+      }
+    ],
+    "likes": [
+      {
+        "id": 1,
+        "userId": 1,
+        "postId": 2
+      },
+      {
+        "id": 2,
+        "userId": 2,
+        "postId": 3
+      },
+      {
+        "id": 3,
+        "userId": 3,
+        "postId": 1
+      },
+      {
+        "id": 4,
+        "userId": 4,
+        "postId": 5
+      },
+      {
+        "id": 5,
+        "userId": 1,
+        "postId": 2
+      }
+    ]
+  }
+  
